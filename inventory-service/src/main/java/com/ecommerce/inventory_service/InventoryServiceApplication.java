@@ -24,8 +24,8 @@ public class InventoryServiceApplication {
 			inventory.setQuantity(200);
 
 			Inventory inventory1 = new Inventory();
-			inventory.setSkuCode("macbook m4");
-			inventory.setQuantity(0);
+			inventory1.setSkuCode("macbook m4");
+			inventory1.setQuantity(0);
 
 			inventoryRepository.save(inventory);
 			inventoryRepository.save(inventory1);
