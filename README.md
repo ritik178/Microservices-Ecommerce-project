@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Microservices Application
+# E-Commerce Microservices Application
 
    **The Project is ongoing**
 
@@ -9,7 +9,7 @@ This project is implemented as a **monorepo** with a single parent (`ecommerce-p
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The system follows a distributed microservices architecture:
 
@@ -69,15 +69,18 @@ The system follows a distributed microservices architecture:
 ### 🔹 Notification Service
 - Consumes Kafka events
 - Sends notifications on order placement
+- finished 
 
 ### 🔹 Eureka Server
 - Central service registry
 - Enables service discovery for all microservices
+- finished 
 
 ### 🔹 API Gateway
 - Centralized routing and filtering
 - Single entry point for clients
 - Integrates authentication and authorization
+- finished 
 
 ---
 
@@ -85,12 +88,14 @@ The system follows a distributed microservices architecture:
 - Implemented using **Keycloak**
 - Role-based authentication and authorization
 - Secures APIs through API Gateway
+- finished 
 
 ---
 
 ## 🔄 Communication
 - **Synchronous:** Feign Client / REST calls
 - **Asynchronous:** Apache Kafka (event-driven architecture)
+- finished 
 
 ---
 
